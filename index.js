@@ -12,12 +12,12 @@ app.use(express.static("./public"));
 app.get('/api/user', (req, res) => {
     res.send({
         name: "Jérémy",
-        verified: "true",
-        birthdate: "04/11/1992",
-        friends: ([ "Moi", " MoiEncore", " EncoreMoi" ]
-            ),    
+        verified: true,
+        birthdate: 04/11/1992,
+        friends: [ "Moi", " MoiEncore", " EncoreMoi" ],
     });
 });
+
 
 // Commande à mettre dans la console pour test si cela fonctionne
 // const profile = document.getElementById('main-content');
