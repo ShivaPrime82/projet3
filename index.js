@@ -19,11 +19,12 @@ app.get('/api/user', (req, res) => {
     });
 });
 
+// Commande à mettre dans la console pour test si cela fonctionne
 // const profile = document.getElementById('main-content');
 
-// const response = fetch ('/api/user'); //await fetch ('/api/user');
+// const response = await fetch ('/api/user');
 
-// const json = response.json(); //await response.json();
+// const json = await response.json();
 
 // const name = profile.getElementsByClassName('name')[0];
 // const verified = profile.getElementsByClassName('boolean')[0];
