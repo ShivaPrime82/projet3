@@ -18,3 +18,8 @@
 
 - [x] après avoir terminé, envoi du lien par mp slack
 
+
+Memo git :
+
+- [ ] False
+- [x] True
