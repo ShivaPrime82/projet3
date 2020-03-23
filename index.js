@@ -12,7 +12,7 @@ app.get('/api/user', (req, res) => {
     res.send({
         name: "Jérémy",
         verified: true,
-        birthdate: new Date(2019, 03, 17),
+        birthdate: new Date(2019, 03, 17), // Attention le mois commence à 0
         friends: [ "Moi", " MoiEncore", " EncoreMoi" ],
     });
 });
