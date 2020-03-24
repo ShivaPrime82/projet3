@@ -13,5 +13,10 @@
         "ecmaVersion": 2018
     },
     "rules": {
+        "indent": ["error", 4],
+        "eqeqeq": ["error", "always"],
+        "prefer-const": "error",
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
     }
 }

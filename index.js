@@ -8,15 +8,14 @@ app.listen(3000, () => {
 
 app.use(express.static("./public"));
 
-app.get('/api/user', (req, res) => {
+app.get("/api/user", (req, res) => {
     res.send({
         name: "Jérémy",
         verified: true,
-        birthdate: new Date(2019, 03, 17), // Attention le mois commence à 0
+        birthdate: new Date(2019, 3, 17), // Attention le mois commence à 0
         friends: [ "Moi", " MoiEncore", " EncoreMoi" ],
     });
 });
-
 
 // Commande à mettre dans la console pour test si cela fonctionne
 // const profile = document.getElementById('main-content');
@@ -34,3 +33,5 @@ app.get('/api/user', (req, res) => {
 // verified.innerHTML = json.verified;
 // birthdate.innerHTML = json.birthdate;
 // friends.innerHTML = json.friends;
+
+
